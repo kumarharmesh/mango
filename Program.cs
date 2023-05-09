@@ -15,5 +15,13 @@
             {
                 Console.WriteLine($"Num: {RandomNumber.RNum()}");
             }
+            System.Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            SortString co=new SortString();
+            co.order=SortOrder.DESC;
+            string [] arr=co.Sorting("a","b","c");
+            for(int i=0;i<arr.Length;i++)
+            {
+                Console.WriteLine(arr[i]);
+            }
     }
 }
