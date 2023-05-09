@@ -5,9 +5,10 @@ public class DateClass
         return str;
     }
 
-    public string GetDate(string format){
-        string temp=DateTime.Now.ToLongDateString();
-        return temp;
+    public string GetDate(){
+        Console.WriteLine("Enter format:");
+        string? format=Console.ReadLine();
+        return DateTime.Now.ToString(format);
     }
     public int GetMonth
     {
