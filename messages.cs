@@ -12,4 +12,7 @@ public class Messages
     public string Surprised(){
         return "I have a surprise for you";
     }
+    public string Terrified(){
+        return "The tigress growled on seeing me very close to her cubs. I was terrified";
+    }
 }
