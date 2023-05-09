@@ -5,6 +5,7 @@ public class DateClass
     }
 
     public string GetDate(string format){
-        return DateTime.Now.ToString(format);
+        string temp=DateTime.Now.ToString(format);
+        return temp;
     }
 }
