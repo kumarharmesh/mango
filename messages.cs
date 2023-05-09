@@ -9,4 +9,7 @@ public class Messages
     public string Sad(){
         return "I am sad today";
     }
+    public string Surprised(){
+        return "I have a surprise for you";
+    }
 }
