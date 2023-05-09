@@ -6,7 +6,7 @@ public class DateClass
     }
 
     public string GetDate(string format){
-        string temp=DateTime.Now.ToString(format);
+        string temp=DateTime.Now.ToLongDateString();
         return temp;
     }
     public int GetMonth
