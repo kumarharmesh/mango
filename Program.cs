@@ -8,6 +8,12 @@
           {
             root=Math.Sqrt(Convert.ToInt32(num));
             System.Console.WriteLine($"Root of {num} is {root}");
+            System.Console.WriteLine("---------------------------");
+            
           }
+          for(int i=0;i<=10;i++)
+            {
+                Console.WriteLine($"Num: {RandomNumber.RNum()}");
+            }
     }
 }
