@@ -23,5 +23,8 @@
             {
                 Console.WriteLine(arr[i]);
             }
+            System.Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+            Guid id=Identifiers.GetId();
+            System.Console.WriteLine(id.ToString());
     }
 }
